@@ -14,6 +14,7 @@ namespace ASSignments
     {
         public Form1()
         {
+            Text = "Some Title";
             InitializeComponent();
         }
     }
