@@ -65,6 +65,7 @@
             // 
             this.tbTotal.Location = new System.Drawing.Point(93, 120);
             this.tbTotal.Name = "tbTotal";
+            this.tbTotal.ReadOnly = true;
             this.tbTotal.Size = new System.Drawing.Size(98, 20);
             this.tbTotal.TabIndex = 3;
             // 
