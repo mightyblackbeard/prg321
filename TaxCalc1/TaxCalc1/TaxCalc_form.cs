@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TaxCalc1
 {
-    public partial class Form1 : Form
+    public partial class TaxCalc_form : Form
     {
-        public Form1()
+        public TaxCalc_form()
         {
             InitializeComponent();
         }
@@ -50,6 +50,19 @@ namespace TaxCalc1
         private void tbIncome_Leave(object sender, EventArgs e)
         {
             isValid();
+        }
+
+        private void tbIncome_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!(Char.IsNumber(e.KeyChar)) && !(e.KeyChar == '.') && !(Char.IsControl(e.KeyChar)))
+            {
+                e.Handled = true;
+            }
+            if ((e.KeyChar == '.') && (tbIncome.Text.IndexOf(".") > -1))
+            {
+                e.Handled = true;
+            }
+
         }
     }
 }
