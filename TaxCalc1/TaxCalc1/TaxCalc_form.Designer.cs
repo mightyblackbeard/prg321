@@ -43,10 +43,13 @@
             this.tbIncome.Name = "tbIncome";
             this.tbIncome.Size = new System.Drawing.Size(98, 20);
             this.tbIncome.TabIndex = 0;
+            this.tbIncome.Leave += new System.EventHandler(this.tbIncome_Leave);
             // 
             // cbTax
             // 
+            this.cbTax.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbTax.FormattingEnabled = true;
+            this.cbTax.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.cbTax.Items.AddRange(new object[] {
             "3%",
             "5%",
@@ -60,6 +63,7 @@
             this.cbTax.Name = "cbTax";
             this.cbTax.Size = new System.Drawing.Size(66, 21);
             this.cbTax.TabIndex = 1;
+            this.cbTax.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.bCalc_KeyPress);
             // 
             // tbTotal
             // 
@@ -114,6 +118,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.Chartreuse;
             this.ClientSize = new System.Drawing.Size(203, 154);
             this.Controls.Add(this.label3);

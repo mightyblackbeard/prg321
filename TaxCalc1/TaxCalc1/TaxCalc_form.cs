@@ -35,5 +35,21 @@ namespace TaxCalc1
                 Calculate(this, e);
             }
         }
+
+        private void isValid()
+        {
+            double income;
+
+            if (!(double.TryParse(tbIncome.Text, out income)))
+            {
+                MessageBox.Show("Invalid input");
+            }
+
+        }
+
+        private void tbIncome_Leave(object sender, EventArgs e)
+        {
+            isValid();
+        }
     }
 }
