@@ -66,17 +66,18 @@
             this.tbTotal.Location = new System.Drawing.Point(93, 120);
             this.tbTotal.Name = "tbTotal";
             this.tbTotal.Size = new System.Drawing.Size(98, 20);
-            this.tbTotal.TabIndex = 2;
+            this.tbTotal.TabIndex = 3;
             // 
             // bCalc
             // 
             this.bCalc.Location = new System.Drawing.Point(59, 81);
             this.bCalc.Name = "bCalc";
             this.bCalc.Size = new System.Drawing.Size(75, 23);
-            this.bCalc.TabIndex = 3;
+            this.bCalc.TabIndex = 2;
             this.bCalc.Text = "Calculate";
             this.bCalc.UseVisualStyleBackColor = true;
             this.bCalc.Click += new System.EventHandler(this.Calculate);
+            this.bCalc.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.bCalc_KeyPress);
             // 
             // label1
             // 

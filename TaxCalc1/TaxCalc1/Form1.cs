@@ -27,5 +27,13 @@ namespace TaxCalc1
 
             tbTotal.Text = (income * taxRate).ToString("c");
         }
+
+        private void bCalc_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((Keys)e.KeyChar == Keys.Enter)
+            {
+                Calculate(this, e);
+            }
+        }
     }
 }
