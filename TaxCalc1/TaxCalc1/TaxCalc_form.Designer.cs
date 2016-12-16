@@ -1,6 +1,6 @@
 ﻿namespace TaxCalc1
 {
-    partial class Form1
+    partial class TaxCalc_form
     {
         /// <summary>
         /// Required designer variable.
@@ -43,10 +43,14 @@
             this.tbIncome.Name = "tbIncome";
             this.tbIncome.Size = new System.Drawing.Size(98, 20);
             this.tbIncome.TabIndex = 0;
+            this.tbIncome.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbIncome_KeyPress);
+            this.tbIncome.Leave += new System.EventHandler(this.tbIncome_Leave);
             // 
             // cbTax
             // 
+            this.cbTax.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbTax.FormattingEnabled = true;
+            this.cbTax.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.cbTax.Items.AddRange(new object[] {
             "3%",
             "5%",
@@ -60,23 +64,26 @@
             this.cbTax.Name = "cbTax";
             this.cbTax.Size = new System.Drawing.Size(66, 21);
             this.cbTax.TabIndex = 1;
+            this.cbTax.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.bCalc_KeyPress);
             // 
             // tbTotal
             // 
             this.tbTotal.Location = new System.Drawing.Point(93, 120);
             this.tbTotal.Name = "tbTotal";
+            this.tbTotal.ReadOnly = true;
             this.tbTotal.Size = new System.Drawing.Size(98, 20);
-            this.tbTotal.TabIndex = 2;
+            this.tbTotal.TabIndex = 3;
             // 
             // bCalc
             // 
-            this.bCalc.Location = new System.Drawing.Point(59, 81);
+            this.bCalc.Location = new System.Drawing.Point(59, 77);
             this.bCalc.Name = "bCalc";
             this.bCalc.Size = new System.Drawing.Size(75, 23);
-            this.bCalc.TabIndex = 3;
+            this.bCalc.TabIndex = 2;
             this.bCalc.Text = "Calculate";
             this.bCalc.UseVisualStyleBackColor = true;
             this.bCalc.Click += new System.EventHandler(this.Calculate);
+            this.bCalc.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.bCalc_KeyPress);
             // 
             // label1
             // 
@@ -108,12 +115,13 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Total:";
             // 
-            // Form1
+            // TaxCalc_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Chartreuse;
-            this.ClientSize = new System.Drawing.Size(203, 154);
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
+            this.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.ClientSize = new System.Drawing.Size(200, 154);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -121,8 +129,9 @@
             this.Controls.Add(this.tbTotal);
             this.Controls.Add(this.cbTax);
             this.Controls.Add(this.tbIncome);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.ForeColor = System.Drawing.Color.Black;
+            this.Name = "TaxCalc_form";
+            this.Text = "TAX CALCULATOR";
             this.ResumeLayout(false);
             this.PerformLayout();
 
