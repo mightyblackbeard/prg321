@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace TaxCalc1
 {
@@ -19,6 +20,9 @@ namespace TaxCalc1
 
         private void Calculate(object sender, EventArgs e)
         {
+            string executableParameter = "1000 7.5";
+            Process.Start("Console_TaxCalc.exe", executableParameter );
+            // ProcessStartInfo processStartInfo = new ProcessStartInfo("Console_TaxCalc", executableParameter);
             string tax = cbTax.SelectedItem.ToString();
             tax = tax.Split('%')[0];
             double income = Convert.ToDouble(tbIncome.Text);

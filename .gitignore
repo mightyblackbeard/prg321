@@ -2,3 +2,7 @@ ASSignments/ASSignments/bin
 ASSignments/ASSignments/obj
 TaxCalc1/TaxCalc1/bin
 TaxCalc1/TaxCalc1/obj
+TaxCalc1/*/obj
+TaxCalc1/*/bin
+TaxCalc1/*.sdf
+TaxCalc1/*.VC.opendb
