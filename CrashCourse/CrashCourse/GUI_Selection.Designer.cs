@@ -56,6 +56,7 @@
             this.lbWorkers.Name = "lbWorkers";
             this.lbWorkers.Size = new System.Drawing.Size(101, 108);
             this.lbWorkers.TabIndex = 1;
+            this.lbWorkers.SelectedIndexChanged += new System.EventHandler(this.lbWorkers_SelectedIndexChanged);
             // 
             // label1
             // 
