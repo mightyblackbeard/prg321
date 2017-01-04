@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace CrashCourse
 {
-    public partial class Form1 : Form
+    public partial class GUI_Selection : Form
     {
-        public Form1()
+        public GUI_Selection()
         {
             InitializeComponent();
+        }
+
+        private void bProSel_Click(object sender, EventArgs e)
+        {
+            tbSelected.Text = lbWorkers.SelectedItem.ToString();
         }
     }
 }
