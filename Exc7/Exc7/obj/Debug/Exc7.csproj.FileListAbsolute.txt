@@ -1,0 +1,9 @@
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\Exc7\Exc7\bin\Debug\Exc7.exe.config
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\Exc7\Exc7\bin\Debug\Exc7.exe
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\Exc7\Exc7\bin\Debug\Exc7.pdb
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\Exc7\Exc7\obj\Debug\Exc7.csprojResolveAssemblyReference.cache
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\Exc7\Exc7\obj\Debug\Exc7.Form1.resources
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\Exc7\Exc7\obj\Debug\Exc7.Properties.Resources.resources
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\Exc7\Exc7\obj\Debug\Exc7.csproj.GenerateResource.Cache
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\Exc7\Exc7\obj\Debug\Exc7.exe
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\Exc7\Exc7\obj\Debug\Exc7.pdb

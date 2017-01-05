@@ -36,16 +36,19 @@
             // 
             // bProSel
             // 
+            this.bProSel.BackColor = System.Drawing.Color.Black;
             this.bProSel.Location = new System.Drawing.Point(83, 139);
             this.bProSel.Name = "bProSel";
             this.bProSel.Size = new System.Drawing.Size(75, 54);
             this.bProSel.TabIndex = 0;
             this.bProSel.Text = "Pretty much do whatever you want";
-            this.bProSel.UseVisualStyleBackColor = true;
+            this.bProSel.UseVisualStyleBackColor = false;
             this.bProSel.Click += new System.EventHandler(this.bProSel_Click);
             // 
             // lbWorkers
             // 
+            this.lbWorkers.BackColor = System.Drawing.Color.Coral;
+            this.lbWorkers.ForeColor = System.Drawing.Color.Yellow;
             this.lbWorkers.FormattingEnabled = true;
             this.lbWorkers.Items.AddRange(new object[] {
             "Baca, Joshua",
@@ -69,6 +72,8 @@
             // 
             // tbSelected
             // 
+            this.tbSelected.BackColor = System.Drawing.Color.DarkKhaki;
+            this.tbSelected.ForeColor = System.Drawing.Color.White;
             this.tbSelected.Location = new System.Drawing.Point(69, 199);
             this.tbSelected.Name = "tbSelected";
             this.tbSelected.ReadOnly = true;
@@ -79,12 +84,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackColor = System.Drawing.Color.Red;
             this.ClientSize = new System.Drawing.Size(254, 228);
             this.Controls.Add(this.tbSelected);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbWorkers);
             this.Controls.Add(this.bProSel);
+            this.ForeColor = System.Drawing.Color.Yellow;
             this.Name = "GUI_Selection";
             this.Text = "GUI Selection";
             this.ResumeLayout(false);

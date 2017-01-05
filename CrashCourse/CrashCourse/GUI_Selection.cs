@@ -19,7 +19,8 @@ namespace CrashCourse
 
         private void bProSel_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Congratulations! You did something", "Doing Whatever You Want", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            MessageBox.Show("Congratulations! You did something",
+                "Doing Whatever You Want", MessageBoxButtons.OK, MessageBoxIcon.Stop);
         }
 
         private void lbWorkers_SelectedIndexChanged(object sender, EventArgs e)
