@@ -69,21 +69,21 @@ namespace Exc7
                 shipRate = .10;
                 MessageBox.Show("YOUR ORDER: \n\n " + tbSelected.Text + "\n" + rbOvernight.Text +
                     ":  " + (price * shipRate).ToString("C") + "\n\n Total: " + (price + (price * shipRate)).ToString("C"), "Order",
-                    MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
             else if(rbThree.Checked)
             {
                 shipRate = .07;
                 MessageBox.Show("YOUR ORDER: \n\n " + tbSelected.Text + "\n" + rbThree.Text +
                     ":  " + (price * shipRate).ToString("C") + "\n\n Total: " + (price + (price * shipRate)).ToString("C"), "Order",
-                    MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
             else
             {
                 shipRate = .05;
                 MessageBox.Show("YOUR ORDER: \n\n " + tbSelected.Text + "\n" + rbStandard.Text +
                     ":  " + (price * shipRate).ToString("C") + "\n\n Total: " + (price + (price * shipRate)).ToString("C"), "Order",
-                    MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
         }
     }
