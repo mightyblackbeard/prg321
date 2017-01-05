@@ -99,7 +99,7 @@
             this.Controls.Add(this.bClear);
             this.Controls.Add(this.lbBags);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Bag Selector";
             this.ResumeLayout(false);
             this.PerformLayout();
 
