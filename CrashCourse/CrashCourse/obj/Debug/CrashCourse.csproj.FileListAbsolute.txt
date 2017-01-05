@@ -1,0 +1,9 @@
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\CrashCourse\CrashCourse\bin\Debug\CrashCourse.exe.config
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\CrashCourse\CrashCourse\bin\Debug\CrashCourse.exe
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\CrashCourse\CrashCourse\bin\Debug\CrashCourse.pdb
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\CrashCourse\CrashCourse\obj\Debug\CrashCourse.csprojResolveAssemblyReference.cache
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\CrashCourse\CrashCourse\obj\Debug\CrashCourse.GUI_Selection.resources
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\CrashCourse\CrashCourse\obj\Debug\CrashCourse.Properties.Resources.resources
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\CrashCourse\CrashCourse\obj\Debug\CrashCourse.csproj.GenerateResource.Cache
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\CrashCourse\CrashCourse\obj\Debug\CrashCourse.exe
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\CrashCourse\CrashCourse\obj\Debug\CrashCourse.pdb
