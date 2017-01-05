@@ -38,7 +38,10 @@
             this.rbOvernight = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.bOrder = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.nudQuantity = new System.Windows.Forms.NumericUpDown();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudQuantity)).BeginInit();
             this.SuspendLayout();
             // 
             // lbBags
@@ -60,7 +63,7 @@
             // bClear
             // 
             this.bClear.Enabled = false;
-            this.bClear.Location = new System.Drawing.Point(29, 182);
+            this.bClear.Location = new System.Drawing.Point(9, 208);
             this.bClear.Name = "bClear";
             this.bClear.Size = new System.Drawing.Size(94, 23);
             this.bClear.TabIndex = 1;
@@ -97,6 +100,7 @@
             // rbStandard
             // 
             this.rbStandard.AutoSize = true;
+            this.rbStandard.Checked = true;
             this.rbStandard.Location = new System.Drawing.Point(12, 19);
             this.rbStandard.Name = "rbStandard";
             this.rbStandard.Size = new System.Drawing.Size(91, 17);
@@ -142,7 +146,7 @@
             // bOrder
             // 
             this.bOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bOrder.Location = new System.Drawing.Point(203, 173);
+            this.bOrder.Location = new System.Drawing.Point(203, 199);
             this.bOrder.Name = "bOrder";
             this.bOrder.Size = new System.Drawing.Size(81, 32);
             this.bOrder.TabIndex = 9;
@@ -150,11 +154,29 @@
             this.bOrder.UseVisualStyleBackColor = true;
             this.bOrder.Click += new System.EventHandler(this.bOrder_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 185);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(49, 13);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "Quantity:";
+            // 
+            // nudQuantity
+            // 
+            this.nudQuantity.Location = new System.Drawing.Point(67, 182);
+            this.nudQuantity.Name = "nudQuantity";
+            this.nudQuantity.Size = new System.Drawing.Size(36, 20);
+            this.nudQuantity.TabIndex = 11;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(301, 218);
+            this.ClientSize = new System.Drawing.Size(295, 237);
+            this.Controls.Add(this.nudQuantity);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.bOrder);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.tbSelected);
@@ -164,8 +186,10 @@
             this.Controls.Add(this.lbBags);
             this.Name = "Form1";
             this.Text = "Bag Selector";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudQuantity)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -183,6 +207,8 @@
         private System.Windows.Forms.RadioButton rbOvernight;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button bOrder;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.NumericUpDown nudQuantity;
     }
 }
 
