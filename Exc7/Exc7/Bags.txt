@@ -1,0 +1,6 @@
+﻿Full Decorative,50
+Beaded,45
+Needlepoint Design,40
+Fringed,25
+Fringed Beaded,30
+Plain,20

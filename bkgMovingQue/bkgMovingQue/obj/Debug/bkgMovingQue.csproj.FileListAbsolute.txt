@@ -1,0 +1,10 @@
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\bkgMovingQue\bkgMovingQue\bin\Debug\bkgMovingQue.exe.config
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\bkgMovingQue\bkgMovingQue\bin\Debug\bkgMovingQue.exe
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\bkgMovingQue\bkgMovingQue\bin\Debug\bkgMovingQue.pdb
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\bkgMovingQue\bkgMovingQue\obj\Debug\bkgMovingQue.csprojResolveAssemblyReference.cache
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\bkgMovingQue\bkgMovingQue\obj\Debug\bkgMovingQue.Form1.resources
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\bkgMovingQue\bkgMovingQue\obj\Debug\bkgMovingQue.Properties.Resources.resources
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\bkgMovingQue\bkgMovingQue\obj\Debug\bkgMovingQue.csproj.GenerateResource.Cache
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\bkgMovingQue\bkgMovingQue\obj\Debug\bkgMovingQue.exe
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\bkgMovingQue\bkgMovingQue\obj\Debug\bkgMovingQue.pdb
+C:\Users\CCSDuser\Desktop\SCHOOL\PRG321\prg321\bkgMovingQue\bkgMovingQue\obj\Debug\bkgMovingQue.Main.resources
