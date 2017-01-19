@@ -20,16 +20,23 @@ namespace TaxCalc1
 
         private void Calculate(object sender, EventArgs e)
         {
-            string executableParameter = "1000 7.5";
-            Process.Start("Console_TaxCalc.exe", executableParameter );
-            // ProcessStartInfo processStartInfo = new ProcessStartInfo("Console_TaxCalc", executableParameter);
-            string tax = cbTax.SelectedItem.ToString();
-            tax = tax.Split('%')[0];
-            double income = Convert.ToDouble(tbIncome.Text);
+            Process process = new Process();
+            process.StartInfo.FileName = "Console_TaxCalc.exe";
+            process.StartInfo.Arguments = "1000 7.5";
+            process.StartInfo.UseShellExecute = false;
+            process.StartInfo.RedirectStandardOutput = true;
+            process.Start();
 
-            double taxRate = Convert.ToDouble(tax) / 100;
+            string output = process.StandardOutput.ReadToEnd();
 
-            tbTotal.Text = (income * taxRate).ToString("c");
+            //string tax = cbTax.SelectedItem.ToString();
+            //tax = tax.Split('%')[0];
+            //double income = Convert.ToDouble(tbIncome.Text);
+
+            //double taxRate = Convert.ToDouble(tax) / 100;
+
+            tbTotal.Text = output;
+            //tbTotal.Text = (income * taxRate).ToString("c");
         }
 
         private void bCalc_KeyPress(object sender, KeyPressEventArgs e)
@@ -42,12 +49,12 @@ namespace TaxCalc1
 
         private void isValid()
         {
-            double income;
+            //double income;
 
-            if (!(double.TryParse(tbIncome.Text, out income)))
-            {
-                MessageBox.Show("Invalid input");
-            }
+            //if (!(double.TryParse(tbIncome.Text, out income)))
+            //{
+            //    MessageBox.Show("Invalid input");
+            //}
 
         }
 
